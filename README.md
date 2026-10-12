@@ -1,6 +1,10 @@
 # senseBox VS Code PlatformIO Template
 
 ## Deutsch
+
+Die Pflege dieses Repositories ist eingestellt. Das Basistemplate samt Boarddefinition und Bibliotheken bleibt verfügbar.
+Die Firmware, die auf der Hardware der Partheland-Stationen getestet wurde, findet sich unter [senseBox-home-Partheland](https://github.com/makerspace-partheland/senseBox-home-Partheland). Es handelt sich um eine auf diese Stationen zugeschnittene Firmware.
+
 Als modernere Alternative zur Arduino IDE nutzen wir im Makerspace Partheland Visual Studio Code mit PlatformIO.
 Um die fehlende senseBox Board Integration in PlatformIO zu überwinden, da das Issue <https://github.com/platformio/platform-atmelsam/pull/169> seit 2021 offen ist, hier ein Ausgangsprojekt mit Board Definition, notwendigem Variants Ordner und Bibliotheken unter lib. 
 Als Quelle diente https://github.com/sensebox/senseBoxMCU-core
@@ -24,6 +28,9 @@ Programmcode wird im \src\ Ordner in der main.cpp abgelegt, analog Arduino.
 <br/><br/>
 
 ## English
+
+This repository is no longer maintained. The base template containing the board definition and libraries remains accessible.
+The firmware validated on the Partheland station hardware can be found at [senseBox-home-Partheland](https://github.com/makerspace-partheland/senseBox-home-Partheland). This is specialized firmware intended for these specific stations.
 
 As a more modern alternative to the Arduino IDE, we use Visual Studio Code with PlatformIO at Makerspace Partheland.
 To overcome the lack of senseBox board integration in PlatformIO, as the issue <https://github.com/platformio/platform-atmelsam/pull/169> has been open since 2021, here is an initial project with board definition, necessary variants folder and libraries under \lib\
